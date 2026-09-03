@@ -1,0 +1,14 @@
+{
+  "name": "performance-metrics",
+  "version": "1.2.3",
+  "description": "Real-time performance monitoring for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "postinstall": "node scripts/setup.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "dotenv": "^16.0.0"
+  }
+}
